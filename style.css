@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    height: fit-content;
+}
+
+/* startScreen: */
+.welcome {
+    display: none;
+    width: fit-content;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.start {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgb(1, 207, 204);
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.start:hover {
+    cursor: pointer;
+    background-color: rgba(1, 207, 204, 0.8);
+}
+.setting {
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.settingTitle {
+    width: 100% !important;
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+.setting span {
+    display: inline-block;
+    width: 150px;
+}
+
+/* inGame: */
+.xDiv {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(127, 127, 127);
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xDiv:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.yDiv {
+    display: flex;
+}
+.xMark, .oMark {
+    width: 35px;
+    height: 35px;
+}
+.rolePlayer {
+    display: flex;
+}
+.xRole, .oRole {
+    padding: 8px;
+    border-radius: 30px;
+    width: 80px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* endGame */
+.endGame {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.508);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.congratulations {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(255, 233, 208);
+    padding: 20px;
+    border-radius: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.congratulations span {
+    display: block;
+    text-align: center;
+}
+.result {
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(64, 198, 158);
+    margin-top: 3px;
+}
+.trophy {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 15px 0;
+}
+.trophy svg {
+    fill: orange;
+    width: 100px;
+    height: 100px;
+}
+.option {
+    display: flex;
+    justify-content: center;
+}
+.backHome {
+    padding: 12px;
+    margin-right: 3px;
+    background-color: rgb(60, 142, 255);
+    border-radius: 12px;
+}
+.backHome svg {
+    fill: white;
+}
+.backHome:hover {
+    cursor: pointer;
+    background-color: rgba(60, 142, 255, 0.8);
+}
+.again {
+    width: 150px;
+    padding: 12px;
+    margin-left: 3px;
+    background-color: rgb(255, 49, 49);
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.again:hover {
+    cursor: pointer;
+    background-color: rgba(255, 49, 49, 0.8);
+}
